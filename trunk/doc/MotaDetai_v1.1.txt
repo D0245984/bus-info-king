@@ -1,0 +1,16 @@
+﻿Các chức năng chính :
+- Định vị 1 địa chỉ do người dùng nhập vào.
+- Tương tác với các đối tượng trên bản đồ (dùng markers của Google Maps API)
+- Tra cứu thông tin 1 tuyến bus cụ thể
+- Hiển thị thông tin về lộ trình của tuyến bus và các trạm bus của tuyến bằng Google Maps API. (khó)
+- Tìm đường đi ngắn nhất từ nơi xuất phát đến một điểm dừng cho trước. (rất khó)
+- Hiển thị đường đi ngắn nhất đã tìm đc bằng Google Maps API. (khó)
+- Hiển thị mối liên hệ giữa các lớp GIS. (rất khó)
+- Quét tất cả các trạm bus trong phạm vi bán kính cho trước từ vị trí của người dùng. (khó)
+
+Các yêu cầu thêm
+- Tinh chỉnh PostgreSQL và PostGIS để sử dụng được với JSON + Google Maps API.
+- Tối ưu thuật toán tìm đường và định vị (rất khó)
+
+Mở rộng
+- Tra cứu các địa điểm dịch vụ khác (hàng quán ăn uống, shopping...)
